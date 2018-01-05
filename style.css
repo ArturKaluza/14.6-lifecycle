@@ -1,0 +1,37 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.box {
+  display: flex;
+}
+
+.counter {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+.counter span {
+  font-size: 20px;
+  font-weight: bold;
+
+}
+
+.counter .btn {
+  width: 120px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 20px;
+  border: 1px solid black;
+  background: lightblue;
+  margin: 5px;
+}
+
+.counter .btn:nth-of-type(2) {
+  background: red;
+}
